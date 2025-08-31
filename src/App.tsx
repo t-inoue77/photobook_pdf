@@ -211,7 +211,7 @@ function App() {
         }
       });
     };
-  }, []);
+  }, [photos]);
 
   // ページ数の選択肢を生成（4の倍数で4〜48）
   const getPageOptions = () => {
