@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccce8258.css",
+    "main.js": "/static/js/main.edebde92.js",
+    "index.html": "/index.html",
+    "static/media/iconv-lite.cjs": "/static/media/iconv-lite.d7bdcb551c2b5000f520.cjs",
+    "main.ccce8258.css.map": "/static/css/main.ccce8258.css.map",
+    "main.edebde92.js.map": "/static/js/main.edebde92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccce8258.css",
+    "static/js/main.edebde92.js"
+  ]
+}
