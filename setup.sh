@@ -6,7 +6,7 @@ echo "Setting up photobook_pdf project..."
 if [ -d "node_modules" ]; then
     echo "node_modules directory already exists. Skipping extraction."
 else
-    echo "Extracting node_modules archives..."
+    echo "Extracting node_modules archives (optimized version)..."
     
     # Extract all node_modules parts
     for file in node_modules_part*.tar.gz; do
@@ -24,3 +24,4 @@ echo "Running npm install to ensure all dependencies are up to date..."
 npm install
 
 echo "Setup complete! You can now run 'npm start' to start the development server."
+echo "Note: This is a Create React App project (not Next.js)"
