@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Photobook PDF - 写真集作成ツール
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+フォトブック（写真集）を作成するためのReactアプリケーションです。
+
+## 初回セットアップ
+
+このプロジェクトをクローンした後、以下のコマンドを実行してください：
+
+```bash
+# リポジトリをクローン
+git clone https://github.com/t-inoue77/photobook_pdf.git
+cd photobook_pdf
+
+# セットアップスクリプトを実行（node_modulesの展開と依存関係のインストール）
+./setup.sh
+```
+
+または手動でセットアップする場合：
+
+```bash
+# node_modulesアーカイブを展開
+for file in node_modules_part*.tar.gz; do
+    tar -xzf "$file"
+done
+
+# 依存関係をインストール
+npm install
+```
 
 ## Available Scripts
 
